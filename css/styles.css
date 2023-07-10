@@ -9,6 +9,7 @@
 
 .link {
   text-decoration: none;
+  color: var(--navyblue);
 }
 
 body {
@@ -52,8 +53,19 @@ address {
   color: var(--navyblue);
 }
 
-.studio2 {
-  color: var(--cloud);
+.header-list {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.header-list :hover,
+.header-list :focus,
+.header-address :hover,
+.header-address :focus  {
+  color: var(--iris)
 }
 
 .banner-title {
@@ -117,4 +129,9 @@ address {
 
 footer {
   background-color: var(--navyblue);
+}
+
+.studio2,
+.footer-text {
+  color: var(--cloud);
 }
