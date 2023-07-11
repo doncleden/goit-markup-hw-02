@@ -7,6 +7,7 @@
   --cornflower: #E7E9FC;
 }
 
+a,
 .link {
   text-decoration: none;
   color: var(--navyblue);
@@ -43,17 +44,22 @@ address {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.web {
   color: var(--iris);
 }
 
 .studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
   color: var(--navyblue);
 }
 
-.header-list {
+.page {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -61,20 +67,23 @@ address {
   letter-spacing: 0.32px;
 }
 
-.header-list :hover,
-.header-list :focus,
-.header-address :hover,
-.header-address :focus  {
+.page:hover,
+.page:focus,
+.header-address:hover,
+.header-address:focus  {
   color: var(--iris)
 }
 
-.banner-title {
-  background-color: var(--navyblue);
+.hero-title {
   color: var(--white);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 1.12px;
+}
+
+.bg-hero {
+  background-color: var(--navyblue);
 }
 
 .button {
@@ -90,7 +99,7 @@ address {
   cursor: pointer;
 }
 
-.portfolio-button {
+.filter {
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
@@ -103,14 +112,15 @@ address {
   cursor: pointer;
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
+.filter:hover,
+.filter:focus {
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
-.top-text {
+.title,
+.name {
   color: var(--navyblue)
   font-size: 20px;
   font-style: normal;
@@ -119,7 +129,9 @@ address {
   letter-spacing: 0.4px;
 }
 
-.bottom-text {
+.description,
+.position,
+.type {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -131,7 +143,18 @@ footer {
   background-color: var(--navyblue);
 }
 
-.studio2,
+.studio-footer {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--cloud);
+}
+
 .footer-text {
   color: var(--cloud);
 }
