@@ -81,6 +81,7 @@ body {
 .button {
   border-color: transparent;
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -108,16 +109,16 @@ body {
 }
 
 .button.filter {
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   border-radius: 4px;
   background: var(--cloud, #f4f4fd);
+  color: var(--iris);
 }
 
 .button.filter:hover,
 .button.filter:focus,
-.button.filer.current {
+.button.filter.current {
   background: var(--ocean);
   color: var(--cloud);
 }
